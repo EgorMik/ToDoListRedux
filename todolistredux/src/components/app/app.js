@@ -7,7 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 const App = () => {
   return (
     <main role="main" className="container">
-      <Header numItems={5} total={210}/>
+      <Header/>
       <Switch>
         <Route
           path="/"
