@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-
-
+import {HomePage} from '../add-form/add-form';
+import Header from '../header/header';
 // import './app.css';
 
 const App = () => {
@@ -11,12 +11,12 @@ const App = () => {
       <Switch>
         <Route
           path="/"
-        //   component={HomePage}
+         component={HomePage}
           exact />
 
         <Route
-          path="/task"
-          component={TaskPage}
+          path="/form"
+          // component={TaskPage}
           />
       </Switch>
     </main>
