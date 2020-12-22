@@ -1,11 +1,13 @@
 import React from 'react';
-import BookList from '../book-list';
-import ShoppingCartTable from '../shopping-cart-table/shopping-cart-table';
+
 import Form from '../components/add-form/add-form';
+import Header from '../components/header/header'
+import SimpleForm from "./add-form-page";
 const HomePage = () => {
   return (
     <div>
-     <List/>
+        <Header />
+        
     </div>
   );
 };

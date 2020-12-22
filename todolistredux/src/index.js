@@ -7,11 +7,11 @@ import App from './components/app';
 
 import store from './store';
 
-// const bookstoreService = new BookstoreService();
-
 ReactDOM.render(
   <Provider store={store}>
+    <Router>
     <App/>
+    </Router>
   </Provider>,
   document.getElementById('root')
 );

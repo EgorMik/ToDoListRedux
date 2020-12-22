@@ -2,13 +2,13 @@ import React from 'react';
 // import './header.css';
 import { Link } from 'react-router-dom';
 
-const ShopHeader = () => {
+const Header = () => {
   return (
     <header className="shop-header row">
-      <Link to="/">
-        <div className="logo text-dark">List</div>
+      <Link to="/">List
+        <div className="logo text-dark"></div>
       </Link>
-      <Link to="/form">
+      <Link to="/form">Add form
         <div className="shopping-cart">
           <i className="cart-icon fa fa-shopping-cart" />
         
@@ -18,4 +18,6 @@ const ShopHeader = () => {
   );
 };
 
-export default ShopHeader;
+export default Header;
+
+
